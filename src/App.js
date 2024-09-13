@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Profile from './components/ProfileTabs';
-import Gallery from './components/Gallery';
+import Profile from './ProfileTabs';
+import Gallery from './Gallery';
 
 function App() {
   return (
