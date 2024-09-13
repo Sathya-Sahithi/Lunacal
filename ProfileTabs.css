@@ -1,0 +1,72 @@
+.profile-tabs {
+  background-color: #35353f;
+  border-radius: 30px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5);
+  width:1000px;
+  height:270px; 
+  margin-left:130px;
+  margin-top: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  background-color: #262628;
+  margin-left: 80px;
+  margin-right: 80px;
+  border-radius: 15px;
+  padding:8px;
+}
+
+.tabs button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.tabs button.active {
+  background-color:  rgb(83, 83, 103);
+  border-radius: 10px;
+  padding-left: 70px;
+  padding-right:70px;
+}
+
+.tab-content {
+  margin-top: 20px;
+  margin-left: 110px;
+  text-align: justify;
+  line-height: 2;
+  height:170px;
+  overflow:auto;
+  padding-right: 100px;
+}
+
+.circle{
+  color:#686870;
+}
+.grid{
+  margin-top:120px;
+  rotate: 90deg;
+  color:#686870
+}
+.circle , .grid{
+  margin-left:10px;
+  font-size: 30px;
+  position: absolute;
+}
+
+.tab-content::-webkit-scrollbar{
+  width:6px;
+  
+}
+
+.tab-content::-webkit-scrollbar-thumb{
+  background: #8f8f93;
+  border-radius: 20px;
+}
